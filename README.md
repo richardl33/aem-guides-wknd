@@ -1,2 +1,2 @@
 # aem-guides-wknd
-This repository is for basic AEM learning and application development
+This repository is for basic AEM learnings and application development
