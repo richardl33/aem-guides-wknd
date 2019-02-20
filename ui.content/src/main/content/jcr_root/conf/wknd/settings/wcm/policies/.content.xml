@@ -31,12 +31,12 @@
                             mergeList="{Boolean}true"/>
                     </content-default>
                     <policy_36730412742858
-                        jcr:lastModified="{Date}2019-02-19T11:46:55.437-05:00"
+                        jcr:lastModified="{Date}2019-02-19T17:09:54.919-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Content"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/byline,/apps/wknd/components/content/contentfragment,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -327,7 +327,43 @@
                         structureDepth="1">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_1550600395836>
+                    <policy_70841735478405
+                        jcr:lastModified="{Date}2019-02-19T13:37:51.625-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Navigation - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        collectAllPages="false"
+                        navigationRoot="/content/wknd/en"
+                        skipNavigationRoot="true"
+                        structureDepth="1">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_70841735478405>
                 </navigation>
+                <header jcr:primaryType="nt:unstructured">
+                    <policy_1550601276472
+                        jcr:lastModified="{Date}2019-02-19T13:38:29.737-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        rootPath="/content/wknd/en">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1550601276472>
+                </header>
+                <search jcr:primaryType="nt:unstructured">
+                    <policy_1550601374766
+                        jcr:lastModified="{Date}2019-02-19T13:38:03.182-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND Search - Header"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        resultsSize="5"
+                        searchRoot="/content/wknd/en"
+                        searchTermMinimumLength="3">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1550601374766>
+                </search>
             </structure>
         </components>
     </wknd>
